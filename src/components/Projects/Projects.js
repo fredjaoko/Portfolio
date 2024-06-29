@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import lyft from "../../Assets/Projects/lyft-cert.png";
+import heatwaveprediction from "../../Assets/Projects/heatwave-prediction.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import insurancefraud from "../../Assets/Projects/Insurance-Fraud.jpg";
 
 function Projects() {
   return (
@@ -23,34 +23,32 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={heatwaveprediction}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Heatwave Prediction"
+              description="Predicting the occurence of heatwaves in Kenya using machine learning. In this project I used weather data from the metoerstat Api to forecast the maximum temperature over time. The model I used is an artificial neural network(LSTM) with as it had proven to be the best approach by many researchers"
+              ghLink="https://github.com/freddyjaoko/heatwave-prediction"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={insurancefraud}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Insurance Fraud Detection"
+              description="An end to end project using machine learning to detect fraud in insurance claims. "
+              ghLink="https://github.com/freddyjaoko/insurance-fraud-detection"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={lyft}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Back-end Engineering internship @ Lyft"
+              description="This project is a virtual internship on forage by Lyft(a popular ridesharing company). In this project I implimented a backend system from the design stage upto implimentation and testing."
+              ghLink="https://github.com/freddyjaoko/lyft-backend-engineering-virtual-internship"
+                            
             />
           </Col>
 
