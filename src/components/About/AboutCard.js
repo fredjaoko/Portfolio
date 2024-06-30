@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Fredrick Jaoko </span>
             from <span className="purple"> Nairobi Kenya.</span>
             <br />
-            I am currently a data analyst intern at Next Thing Networks.
+            I am currently a Data Science & Business Analytics Intern at The Sparks Foundation
             <br />
             I am also currently a student at Kenyatta University persuing my Bachelors in Finance.
             <br />
