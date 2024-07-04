@@ -6,7 +6,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-
+import { BsMedium } from "react-icons/bs";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -79,6 +79,16 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="https://medium.com/@fredxmokua"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <BsMedium />
+                </a>
+              </li>    
             </ul>
           </Col>
         </Row>

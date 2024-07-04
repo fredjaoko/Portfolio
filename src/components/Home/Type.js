@@ -9,7 +9,7 @@ function Type() {
           "Data Scientist",
           "Data Engineer",
           "Data Analyst",
-          "Open Source Contributor",
+          "Technical Writer",
         ],
         autoStart: true,
         loop: true,
