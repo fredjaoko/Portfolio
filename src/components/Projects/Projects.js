@@ -6,6 +6,7 @@ import BCG from "../../Assets/Projects/BCG-cert.png";
 import lyft from "../../Assets/Projects/lyft-cert.png";
 import heatwaveprediction from "../../Assets/Projects/heatwave-prediction.png";
 import insurancefraud from "../../Assets/Projects/Insurance-Fraud.jpg";
+import stockmarket from "../../Assets/Projects/stock-market.avif";
 
 function Projects() {
   return (
@@ -19,6 +20,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={stockmarket}
+              isBlog={false}
+              title="Stock Market Prediction Using Daily News Headlines"
+              description="This project is about predicting the BSE SENSEX index on the Mumbai stock exchange in India using daily news headlines. The stock market data of each day is collected from Yahoo finance. Combined both datasets to process and applied modeling techniques to get desired results. Different NLP techniques and machine learning models are used to address the problem defined."
+              ghLink="https://github.com/freddyjaoko/stock-market-prediction-using-daily-news-headlines"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={heatwaveprediction}
@@ -59,6 +71,7 @@ function Projects() {
               ghLink="https://github.com/freddyjaoko/BCG_job_simulation"
             />
           </Col>
+
 
         </Row>
       </Container>
