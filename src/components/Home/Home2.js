@@ -7,6 +7,8 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsMedium } from "react-icons/bs";
+import { SiTableau } from "react-icons/si";
+
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -88,7 +90,18 @@ function Home2() {
                 >
                   <BsMedium />
                 </a>
-              </li>    
+              </li>  
+
+              <li className="social-icons">
+                <a
+                  href="https://public.tableau.com/app/profile/fred.j7942/vizzes"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiTableau />
+                </a>
+              </li>   
             </ul>
           </Col>
         </Row>
