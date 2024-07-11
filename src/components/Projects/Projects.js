@@ -7,6 +7,7 @@ import lyft from "../../Assets/Projects/lyft-cert.png";
 import heatwaveprediction from "../../Assets/Projects/heatwave-prediction.png";
 import insurancefraud from "../../Assets/Projects/Insurance-Fraud.jpg";
 import stockmarket from "../../Assets/Projects/stock-market.avif";
+import databricks from "../../Assets/Projects/databricks-kl.png";
 
 function Projects() {
   return (
@@ -20,6 +21,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={databricks}
+              isBlog={false}
+              title="Employee Attrition Analysis Using SparkSQL on Databricks"
+              description="Analysis of employee data using Apache Spark on Databricks to derive insights about customer attrition."
+              ghLink="https://github.com/freddyjaoko/Employee-attrition-analysis-using-sparkSQL-on-Databricks"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
