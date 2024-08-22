@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import BCG from "../../Assets/Projects/BCG-cert.png";
 import lyft from "../../Assets/Projects/lyft-cert.png";
-import heatwaveprediction from "../../Assets/Projects/heatwave-prediction.png";
+import nycdashboard from "../../Assets/Projects/SUMMARY.png";
 import insurancefraud from "../../Assets/Projects/Insurance-Fraud.jpg";
 import stockmarket from "../../Assets/Projects/stock-market.avif";
 import databricks from "../../Assets/Projects/databricks-kl.png";
@@ -44,11 +44,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={heatwaveprediction}
+              imgPath={nycdashboard}
               isBlog={false}
-              title="Heatwave Prediction"
-              description="Predicting the occurence of heatwaves in Kenya using machine learning. In this project I used weather data from the metoerstat Api to forecast the maximum temperature over time. The model I used is an artificial neural network(LSTM) with as it had proven to be the best approach by many researchers"
-              ghLink="https://github.com/freddyjaoko/heatwave-prediction"
+              title="🚕 Performing Data Analytics on NYC Taxi data using GCP and MageAI "
+              description="The goal of this project is to perform data analytics on NYC Taxi Trip Records using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio."
+              ghLink="https://github.com/freddyjaoko/NYCTaxi-Analytics-ETL-GCP"
             />
           </Col>
 
