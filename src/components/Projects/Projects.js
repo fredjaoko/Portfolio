@@ -24,6 +24,16 @@ function Projects() {
 
         <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={nycdashboard}
+              isBlog={false}
+              title="🚕 Performing Data Analytics on NYC Taxi data using GCP and MageAI "
+              description="The goal of this project is to perform data analytics on NYC Taxi Trip Records using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio."
+              ghLink="https://github.com/freddyjaoko/NYCTaxi-Analytics-ETL-GCP"
+            />
+          </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={databricks}
               isBlog={false}
               title="Employee Attrition Analysis Using SparkSQL on Databricks"
@@ -39,16 +49,6 @@ function Projects() {
               title="Stock Market Prediction Using Daily News Headlines"
               description="This project is about predicting the BSE SENSEX index on the Mumbai stock exchange in India using daily news headlines. The stock market data of each day is collected from Yahoo finance. Combined both datasets to process and applied modeling techniques to get desired results. Different NLP techniques and machine learning models are used to address the problem defined."
               ghLink="https://github.com/freddyjaoko/stock-market-prediction-using-daily-news-headlines"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={nycdashboard}
-              isBlog={false}
-              title="🚕 Performing Data Analytics on NYC Taxi data using GCP and MageAI "
-              description="The goal of this project is to perform data analytics on NYC Taxi Trip Records using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio."
-              ghLink="https://github.com/freddyjaoko/NYCTaxi-Analytics-ETL-GCP"
             />
           </Col>
 
