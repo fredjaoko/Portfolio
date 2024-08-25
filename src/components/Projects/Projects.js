@@ -6,7 +6,7 @@ import BCG from "../../Assets/Projects/BCG-cert.png";
 import lyft from "../../Assets/Projects/lyft-cert.png";
 import nycdashboard from "../../Assets/Projects/SUMMARY.png";
 import insurancefraud from "../../Assets/Projects/Insurance-Fraud.jpg";
-import stockmarket from "../../Assets/Projects/stock-market.avif";
+import cricket from "../../Assets/Projects/dash.png";
 import databricks from "../../Assets/Projects/databricks-kl.png";
 
 function Projects() {
@@ -44,11 +44,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={stockmarket}
+              imgPath={cricket}
               isBlog={false}
-              title="Stock Market Prediction Using Daily News Headlines"
-              description="This project is about predicting the BSE SENSEX index on the Mumbai stock exchange in India using daily news headlines. The stock market data of each day is collected from Yahoo finance. Combined both datasets to process and applied modeling techniques to get desired results. Different NLP techniques and machine learning models are used to address the problem defined."
-              ghLink="https://github.com/fredjaoko/stock-market-prediction-using-daily-news-headlines"
+              title="Cricket Statistics Data Pipeline Project"
+              description="This project showcases a robust data pipeline designed to retrieve cricket statistics using Python and the Cricbuzz API. The data is stored in Google Cloud Storage (GCS) in CSV format, where a Cloud Function is set up to trigger upon file upload. The Cloud Function launches a Dataflow job to load the data into BigQuery, enabling further analysis. The pipeline concludes with the creation of a Looker dashboard, providing real-time visual insights from the ingested cricket data. This project highlights skills in API integration, cloud storage, data processing, and visualization tools like Looker."
+              ghLink="https://github.com/fredjaoko/cricket-stat-data-engineering-project"
             />
           </Col>
 
