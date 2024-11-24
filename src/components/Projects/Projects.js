@@ -28,7 +28,7 @@ function Projects() {
               isBlog={false}
               title="🚕 Performing Data Analytics on NYC Taxi data using GCP and MageAI "
               description="The goal of this project is to perform data analytics on NYC Taxi Trip Records using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio."
-              ghLink="https://github.com/freddyjaoko/NYC-Taxi-Analytics-GCP"
+              ghLink="https://github.com/fredjaoko/NYC-Taxi-Analytics-GCP"
             />
           </Col>
 
@@ -48,7 +48,7 @@ function Projects() {
               isBlog={false}
               title="Cricket Statistics Data Pipeline Project"
               description="This project showcases a robust data pipeline designed to retrieve cricket statistics using Python and the Cricbuzz API. The data is stored in Google Cloud Storage (GCS) in CSV format, where a Cloud Function is set up to trigger upon file upload. The Cloud Function launches a Dataflow job to load the data into BigQuery, enabling further analysis. The pipeline concludes with the creation of a Looker dashboard, providing real-time visual insights from the ingested cricket data. This project highlights skills in API integration, cloud storage, data processing, and visualization tools like Looker."
-              ghLink="https://github.com/freddyjaoko/cricket-stat-data-engineering-project"
+              ghLink="https://github.com/fredjaoko/cricket-stat-data-engineering-project"
             />
           </Col>
 
