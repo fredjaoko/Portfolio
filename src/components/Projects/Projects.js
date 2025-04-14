@@ -8,6 +8,7 @@ import nycdashboard from "../../Assets/Projects/SUMMARY.png";
 import insurancefraud from "../../Assets/Projects/Insurance-Fraud.jpg";
 import cricket from "../../Assets/Projects/dash.png";
 import databricks from "../../Assets/Projects/databricks-kl.png";
+import devops from "../../Assets/Projects/devops.png";
 
 function Projects() {
   return (
@@ -21,6 +22,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={devops}
+              isBlog={false}
+              title="Ecommerce Modernization Project"
+              description="Transformed a legacy monolithic ecommerce application into a modern, cloud-native solution. Containerized the application using Docker, implemented CI/CD pipelines with GitHub Actions, and integrated automated testing (pytest, coverage) and static code analysis with SonarQube. Built and published Docker images to DockerHub and deployed seamlessly to Render. Integrated real-time Slack notifications to track build and deployment status."
+              ghLink="https://github.com/freddyjaoko/Ecommerce-modernization"
+            />
+          </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard
